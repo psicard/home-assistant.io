@@ -74,7 +74,7 @@ Components inside packages can only specify platform entries using configuration
 
 ### Create a packages folder
 
-One way to organize packages is to create a folder named "packages" in your Home Assistant configuration directory. In the packages directory you can store any number of packages in a YAML file. This entry in your `configuration.yaml` will load all packages:
+One way to organize packages is to create a folder named "packages" in your Home Assistant configuration directory. In the packages directory you can store any number of packages in a YAML file. This entry in your `configuration.yaml` will load all packages (including those in subdirectories):
 
 ```yaml
 homeassistant:
